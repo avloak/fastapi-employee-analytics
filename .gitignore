@@ -23,6 +23,8 @@ MANIFEST
 
 # Virtual environments
 .env
+.env.dev
+.env.prod
 .venv
 env/
 venv/
@@ -46,6 +48,7 @@ Thumbs.db
 
 # Docker
 .dockerignore
+docker-compose.prod.yml
 
 # Logs
 *.log
